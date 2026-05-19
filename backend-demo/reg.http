@@ -1,0 +1,66 @@
+GET http://localhost:4000/users
+
+###
+POST http://localhost:4000/users
+Content-Type: application/json
+
+{
+    "username" : "bhanu",
+    "password" : "bhanu",
+    "age": 23
+}
+
+###update user 
+PUT  http://localhost:4000/users/697dbd840d818ca3bb6f9d19
+Content-Type: application/json
+
+{
+    "username" : "bhanu",
+    "password" : "bhanu",
+    "age": 23
+}
+
+###delete by ObjectId
+DELETE   http://localhost:4000/users/a697dbd840d818ca3bb6f9d19
+###
+
+//productss
+
+
+GET http://localhost:4000/product-api/products
+
+###
+POST http://localhost:4000/product-api/products
+Content-Type: application/json
+
+{
+  "pid": 101,
+  "productName": "Television",
+  "price": 4500
+}
+
+
+###
+GET http://localhost:4000/product-api/products/101
+
+###
+PUT http://localhost:4000/product-api/products/101
+
+{
+    "pid":101,
+    "productName":"pencilbox",
+    "price":2000
+}
+
+###
+POST http://localhost:4000/users/auth
+Content-Type: application/json
+
+{
+    "username":"bhanu",
+    "password":"bhanu"
+}
+
+### req for protected route
+GET http://localhost:4000/users/test
+
