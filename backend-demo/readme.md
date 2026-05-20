@@ -2,6 +2,18 @@
 
 ## Overview
 
+Project Purpose
+
+The purpose of the backend demo project is to learn how backend applications and APIs work using Node.js and Express.js.
+
+Main Goals
+Build REST APIs
+Handle HTTP requests and responses
+Understand server creation
+Learn routing and middleware
+Connect frontend with backend
+Perform CRUD operations
+
 The **Backend Demo Project** is a simple backend application developed using:
 
 * Node.js
